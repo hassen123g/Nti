@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div img {
+  border-radius: 50%;
+  width: 30px;
+}
+header {
+  padding: 5px 20px;
+  background-color: white;
+}
+header,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+
+  gap: 20px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: none;
+}
+button:hover {
+  background-color: rgb(38, 38, 248);
+}
+.icon {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.con {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 15px 15px;
+}
+.con .img {
+  width: 40%;
+}
+.img img {
+  width: 100%;
+}
+.box h2 {
+  color: green;
+  margin: 10px 10px;
+}
+.box p {
+  color: grey;
+  opacity: 0.6;
+  margin: 10px 10px;
+  line-height: -1.2;
+}
+.box button {
+  margin-left: 25px;
+  background-color: #00a000;
+}
+#btn {
+  background-color: white;
+}
+.con2 {
+  text-align: center;
+  padding: 20px 20px;
+}
+.con2 .choose h2 {
+  margin-bottom: 7px;
+}
+.choose p {
+  color: gray;
+}
+.img2 img {
+  width: 60px;
+  height: 60px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 10px;
+  line-height: 2.5;
+}
+.cards .icon {
+  display: flex;
+  flex-direction: column;
+}
+.icon h3,
+.icon i {
+  font-size: x-large;
+}
+.con3 {
+  text-align: center;
+  padding: 20px 20px;
+}
+.con3 h3 {
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 40px;
+}
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 10px;
+  line-height: 2.5;
+}
+.size p {
+  color: gray;
+  opacity: 0.8;
+}
+.size img {
+  width: 100px;
+  height: 100px;
+}
+.size button {
+  background-color: #00a000;
+}
+.con4 {
+  text-align: center;
+  padding: 20px 20px;
+}
+.con4 p {
+  color: gray;
+  opacity: 0.8;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.comments {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 10px;
+  line-height: 2.5;
+  gap: 10px;
+}
+.comment img {
+  width: 100px;
+  height: 100px;
+}
+.con5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  gap: 15px;
+  padding: 10px 20px;
+}
+.con5 img {
+  width: 40%;
+}
+.con5 p {
+  color: gray;
+  opacity: 0.8;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.con5 button {
+  margin: 15px;
+  background-color: #00a000;
+}
+.con6 {
+  text-align: center;
+  padding: 20px 20px;
+  line-height: 2;
+}
+.con6 p {
+  color: gray;
+  opacity: 0.8;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.form {
+  margin-top: 20px;
+}
+#btn2 {
+  padding: 5px 40px;
+}
+.form button {
+  margin: 15px;
+  background-color: #00a000;
+}
+.con7 {
+  text-align: center;
+  display:flex ;
+  flex-direction: column;
+
+  padding: 20px 20px;
+  line-height: 1.7;
+  background-color: #00a000;
+}
+.up{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+hr{
+  color: black;
+}
+.up ul{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
